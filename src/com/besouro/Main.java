@@ -9,6 +9,7 @@ public class Main {
         Dog doggo = new Dog(5,"doggo","black");
         Dog brisa = new Dog(2,"brisa","brown");
         doggo.printDog();
+        doggo.healthStatus();
         brisa.printDog();
 
 

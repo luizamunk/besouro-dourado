@@ -6,12 +6,7 @@ package com.besouro.model;
 public class Dog extends Animal {
 
     public Dog(int dogAge, String dogName, String  dogFurColor){
-        super(dogAge,dogName,dogFurColor);
-    }
-
-    public void printDog(){
-
-        System.out.println(this.name + " is a beautiful " + this.furColor + " dog, which is " + this.age + " years old");
+        super(dogAge,dogName,dogFurColor,"dog");
     }
 
     public void healthStatus(){

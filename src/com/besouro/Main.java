@@ -11,6 +11,8 @@ public class Main {
         doggo.printDog();
         doggo.healthStatus();
         brisa.healthStatus();
+        doggo.printAnimal();
+        brisa.printAnimal();
 
 
     }

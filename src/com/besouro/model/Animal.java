@@ -7,11 +7,13 @@ public class Animal {
     protected int age;
     protected String name;
     protected String furColor;
+    protected String kind;
 
-    public Animal(int animalAge, String animalName, String animalFurColor) {
+    public Animal(int animalAge, String animalName, String animalFurColor, String animalKind) {
         this.age = animalAge;
         this.name = animalName;
         this.furColor = animalFurColor;
+        this.kind = animalKind;
     }
 
     public int getAge() {
@@ -40,6 +42,11 @@ public class Animal {
 
     public void healthStatus(){
         System.out.println("Your animal is healthy!");
+
+    }
+
+    public void printAnimal(){
+       System.out.println(this.name + " is a beautiful " + this.furColor + " " + this.kind +" which is " + this.age + " years old");
 
     }
 }

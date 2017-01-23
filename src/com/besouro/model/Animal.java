@@ -8,6 +8,12 @@ public class Animal {
     protected String name;
     protected String furColor;
 
+    public Animal(int animalAge, String animalName, String animalFurColor) {
+        this.age = animalAge;
+        this.name = animalName;
+        this.furColor = animalFurColor;
+    }
+
     public int getAge() {
         return age;
     }

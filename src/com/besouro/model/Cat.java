@@ -6,8 +6,6 @@ package com.besouro.model;
 public class Cat extends Animal {
 
     public Cat(int catAge, String catName, String catFurColor) {
-        this.age = catAge;
-        this.name = catName;
-        this.furColor = catFurColor;
+        super(catAge, catName, catFurColor);
     }
 }

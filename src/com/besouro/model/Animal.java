@@ -4,10 +4,10 @@ package com.besouro.model;
  * Created by Luiza on 22/01/2017.
  */
 public class Animal {
-    protected int age;
-    protected String name;
-    protected String furColor;
-    protected String kind;
+    int age;
+    String name;
+    String furColor;
+    String kind;
 
     public Animal(int animalAge, String animalName, String animalFurColor, String animalKind) {
         this.age = animalAge;

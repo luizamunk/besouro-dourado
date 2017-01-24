@@ -8,11 +8,15 @@ public class Main {
 
         Dog doggo = new Dog(5,"doggo","black");
         Cat brisa = new Cat(2,"brisa","brown");
-        doggo.printDog();
-        doggo.healthStatus();
-        brisa.healthStatus();
-        doggo.printAnimal();
-        brisa.printAnimal();
+
+        AnimalHotel hotel = new AnimalHotel("Casa da Lu");
+        hotel.checkAnimalIn(doggo);
+        hotel.checkAnimalIn(brisa);
+
+        hotel.checkAnimalOut("Leo");
+        hotel.checkAnimalOut("brisa");
+        hotel.checkAnimalOut("Brisa");
+        hotel.checkAnimalOut("doggo");
 
 
     }
